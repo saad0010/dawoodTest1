@@ -7,6 +7,7 @@ import bannerOne from "../../../public/bannerOne.webp";
 import bannerTwo from "../../../public/bannerTwo.webp";
 import bannerThree from "../../../public/bannerThree.webp";
 import FadeIn from "../FadeIn";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -33,14 +34,18 @@ const Banner = () => {
               </FadeIn>
               <FadeIn>
                 <div className="w-full p-6 xl:p-10 bg-white rounded-3xl flex flex-col lg:flex-row text-black justify-between gap-5">
-                  <input
-                    className="w-full h-12 border-[1px] text-base text-gray-600 placeholder:tracking-wide border-gray-300 rounded-xl px-4 outline-none hover:border-primeColor focus-visible:border-primeColor duration-300"
-                    type="text"
-                    placeholder="Email"
-                  />
-                  <button className="w-full h-12 rounded-xl bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300">
-                    Next
-                  </button>
+                  {/* <Link
+                    // className="w-full h-12 justify-center  rounded-xl   bg-black text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300"
+                    href={"/contact"}
+                  >
+                    <h3 className="items-center"> WORK WITH US</h3>
+                  </Link> */}
+                  <Link href={"/contact"} className="w-full">
+                    {" "}
+                    <button className="w-full px-4   h-12 rounded-xl bg-purple-700 text-white uppercase font-medium hover:bg-green-950 cursor-pointer duration-300">
+                      WORK WITH US
+                    </button>
+                  </Link>
                 </div>
               </FadeIn>
             </div>

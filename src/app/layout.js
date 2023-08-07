@@ -1,9 +1,10 @@
 import Header from "@/components/layout/Header";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
+import BecomClient from "@/components/layout/BecomClient";
 
 export const metadata = {
-  title: "N W : Digital Marketing Agency",
+  title: "North Wave : Digital Marketing Agency",
   description: "Digital Marketing Agency",
 };
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <BecomClient />
         <Footer />
       </body>
     </html>

@@ -22,7 +22,7 @@ const Header = () => {
       <div className="h-full max-w-screen-2xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} className="relative group overflow-hidden">
-          <p className="text-2xl font-bold">LOGO Text/IMG</p>
+          <p className="text-2xl font-bold uppercase">North Wave</p>
           <span className="absolute bottom-0 w-full h-[2px] inline-block bg-primeColor -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-700"></span>
         </Link>
         {/* Logo */}
@@ -92,9 +92,11 @@ const Header = () => {
               </Link>
             ))}
           </ul>
-          <button className="w-36 h-10 bg-darkGreen text-white uppercase rou hover:bg-primeColor duration-300 tracking-wide">
-            Hire Us
-          </button>
+          <Link href={"/contact"}>
+            <button className="w-36 h-10 bg-darkGreen text-white uppercase rou hover:bg-primeColor duration-300 tracking-wide">
+              Hire Us
+            </button>
+          </Link>
         </div>
       </div>
     </div>
