@@ -76,11 +76,10 @@ const Header = () => {
         <div className="hidden lg:inline-flex items-center gap-8 text-sm uppercase font-semibold tracking-wide">
           <ul className="flex gap-8">
             {headerListItem.map((item) => (
-              <Link href={item.link}>
+              <Link key={item._id} href={item.link}>
                 <li
                   className={`${active === item.link && "text-primeColor"}
                   text-gray-600 hover:text-primeColor cursor-pointer duration-300 group relative`}
-                  key={item._id}
                 >
                   {item.title}
                   <span

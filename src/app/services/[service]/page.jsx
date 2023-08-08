@@ -21,7 +21,7 @@ const Service = ({ params }) => {
   return (
     <Container>
       {data.map((item) => (
-        <div>
+        <div key={item.id}>
           <h1>{item.title}</h1>
           <h1>{item.desc}</h1>
         </div>

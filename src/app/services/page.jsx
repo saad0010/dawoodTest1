@@ -5,6 +5,7 @@ import React from "react";
 import { items } from "./data.js";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { Image } from "next/image";
 const getData = () => {
   const data = items["services"];
 

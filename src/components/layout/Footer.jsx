@@ -159,23 +159,23 @@ const Footer = () => {
               <div>
                 <p class="font-medium">Company</p>
                 <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Home{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     About{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Become a client{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Case Studies{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Blogs{" "}
                   </a>
@@ -184,31 +184,31 @@ const Footer = () => {
               <div>
                 <p class="font-medium">Services</p>
                 <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     SEO{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Web Design{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Social Media Marketing{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     PPC (Pay Per Click){" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Affiliate Marketing{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Email Marketing{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Logo Design{" "}
                   </a>
@@ -217,15 +217,15 @@ const Footer = () => {
               <div>
                 <p class="font-medium">Helpful Links</p>
                 <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Contact{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     FAQs{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Live Chat{" "}
                   </a>
@@ -234,19 +234,19 @@ const Footer = () => {
               <div>
                 <p class="font-medium">Legal</p>
                 <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Privacy Policy{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Terms &amp; Conditions{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Returns Policy{" "}
                   </a>
-                  <a class="hover:opacity-75" href>
+                  <a class="hover:opacity-75" href="#">
                     {" "}
                     Accessibility{" "}
                   </a>
